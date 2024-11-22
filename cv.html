@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CV - Maxime Kerlidou</title>
+    <style>
+      :root {
+        --primary-color: #2c3e50;
+        --secondary-color: #3498db;
+        --text-color: #333;
+        --light-gray: #f5f5f5;
+        --border-color: #e0e0e0;
+      }
+
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 1.6;
+        color: var(--text-color);
+        max-width: 850px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: white;
+      }
+
+      header {
+        text-align: center;
+        margin-bottom: 30px;
+        padding-bottom: 20px;
+        border-bottom: 2px solid var(--border-color);
+      }
+
+      h1 {
+        color: var(--primary-color);
+        margin: 0;
+        font-size: 2.5em;
+      }
+
+      h2 {
+        color: var(--secondary-color);
+        border-bottom: 2px solid var(--border-color);
+        padding-bottom: 5px;
+        margin-top: 25px;
+      }
+      a {
+        text-decoration: none;
+        color: var(--primary-color);
+        cursor: pointer;
+      }
+
+      .contact-info {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+        margin-top: 15px;
+      }
+
+      .contact-info span {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+      }
+
+      .experience-item {
+        margin-bottom: 25px;
+      }
+
+      .experience-title {
+        font-weight: bold;
+        color: var(--primary-color);
+        margin-bottom: 5px;
+      }
+
+      .experience-period {
+        color: var(--secondary-color);
+        font-style: italic;
+        margin-bottom: 10px;
+      }
+
+      .skills-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 20px;
+        margin-top: 15px;
+      }
+
+      .skills-section {
+        background-color: var(--light-gray);
+        padding: 15px;
+        border-radius: 5px;
+      }
+
+      .skills-section h3 {
+        color: var(--primary-color);
+        margin-top: 0;
+        margin-bottom: 10px;
+      }
+
+      ul {
+        list-style-type: none;
+        padding-left: 0;
+        margin: 0;
+      }
+
+      li {
+        margin-bottom: 5px;
+      }
+
+      .subtitle {
+        color: var(--secondary-color);
+        font-size: 1.2em;
+        margin-top: 5px;
+      }
+
+      .resume {
+        text-align: justify;
+        margin: 20px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Maxime Kerlidou</h1>
+      <div class="subtitle">Javascript Developer</div>
+      <div class="contact-info">
+        <span>📍 Lille / Remote </span>
+        <span>📧 maxime.kerlidou@gmail.com</span>
+        <span>📞 06.68.73.90.14</span>
+        <a
+          href="https://www.linkedin.com/in/maxime-kerlidou-%F0%9F%9A%80-45339b99/"
+          target="_blank"
+        >
+          <span>🔗 Linkedin</span>
+        </a>
+      </div>
+    </header>
+
+    <section>
+      <h2>Profil</h2>
+      <div class="resume">
+        Développeur Full Stack JavaScript passionné, avec une expertise
+        approfondie dans le développement d'applications web modernes.
+        Spécialisé dans les technologies Node.js et React.js, avec une forte
+        expérience dans la création de solutions backend et frontend pour des
+        entreprises françaises et internationales.
+      </div>
+    </section>
+
+    <section>
+      <h2>Expérience Professionnelle</h2>
+
+      <div class="experience-item">
+        <div class="experience-title">
+          Rakuten France | Javascript Developer
+        </div>
+        <div class="experience-period">
+          Janvier 2024 - Aujourd'hui | Paris & Télétravail
+        </div>
+        <ul>
+          <li>
+            • Développement de solutions logicielles pour le département
+            usercare-fraud-risk-payment
+          </li>
+          <li>• Répartition : 70% backend, 30% frontend</li>
+          <li>
+            • Stack technique : Node.js, Express.js, MariaDB, Sequelize.js,
+            React.js, CSS
+          </li>
+          <li>• Environnement Agile</li>
+        </ul>
+      </div>
+
+      <div class="experience-item">
+        <div class="experience-title">
+          Infogene | Full-Stack Developer Consultant
+        </div>
+        <div class="experience-period">Juillet 2023 - Janvier 2024 | Lille</div>
+        <ul>
+          <li>• Mission pour Rakuten France</li>
+          <li>
+            • Maintenance et développement de solutions logicielles pour le
+            service usercare
+          </li>
+          <li>• Répartition : 70% backend, 30% frontend</li>
+          <li>
+            • Technologies : MySQL, React.js, Bootstrap, Material-UI,
+            Sequelize.js, Express.js
+          </li>
+        </ul>
+      </div>
+
+      <div class="experience-item">
+        <div class="experience-title">
+          Kolabee | Frontend Developer (Mission Sponsorisée)
+        </div>
+        <div class="experience-period">Mai 2023 - Juin 2023 | Lille</div>
+        <ul>
+          <li>
+            • Développement et débogage d'une section de la plateforme
+            associative "La Chaîne du droit"
+          </li>
+          <li>• Documentation sur la gestion des états front-end</li>
+          <li>• Stack : React.js, GitLab, Bootstrap, Microsoft Azure</li>
+        </ul>
+      </div>
+
+      <div class="experience-item">
+        <div class="experience-title">Freelance | Digital Consultant</div>
+        <div class="experience-period">Août 2022 - Mai 2023 | Cambrai</div>
+        <ul>
+          <li>
+            • Création et développement de solutions numériques pour artisans et
+            PME
+          </li>
+          <li>• Développement de sites web et applications</li>
+          <li>• Optimisation SEO et performances</li>
+          <li>
+            • Technologies : Node.js, Next.js, SEO, CI/CD, Tailwind,
+            styled-components, MongoDB, Google Analytics, Vercel
+          </li>
+        </ul>
+      </div>
+
+      <div class="experience-item">
+        <div class="experience-title">USER | Full-Stack Developer (Stage)</div>
+        <div class="experience-period">Février 2022 - Juillet 2022 | Lille</div>
+        <ul>
+          <li>• Développement d'une application métier pour designers UX</li>
+          <li>• Frontend : Next.js, Redux, TypeScript</li>
+          <li>• Backend : PostgreSQL avec Prisma ORM</li>
+          <li>• Intégration Firebase</li>
+          <li>
+            • Compétences : API REST, TypeScript, Redux Saga, Next.js, SCSS
+          </li>
+        </ul>
+      </div>
+
+      <div class="experience-item">
+        <div class="experience-title">SOFT AND SEA | Developer (Stage)</div>
+        <div class="experience-period">
+          Décembre 2021 - Février 2022 | Bannalec
+        </div>
+        <ul>
+          <li>
+            • Développement d'une API Express pour la gestion des données de
+            traçabilité
+          </li>
+          <li>• Prototype de consultation de données avec React.js</li>
+          <li>• POC : Implémentation de BigChain DB sur Next.js</li>
+          <li>• Technologies : JavaScript, Node.js, API REST, Blockchain</li>
+        </ul>
+      </div>
+
+      <div class="experience-item">
+        <div class="experience-title">Expérience en Travail Social</div>
+        <ul>
+          <li>
+            • <strong>Secours Catholique - Caritas France</strong> | Animateur /
+            Formateur de Réseaux de Solidarité
+          </li>
+          <li class="experience-period">
+            Septembre 2019 - Décembre 2020 | Cambrai
+          </li>
+          <li>- Animation et accompagnement de réseaux de solidarité locale</li>
+          <li>
+            • <strong>EPIDE</strong> | Conseiller Éducation et Citoyenneté
+          </li>
+          <li class="experience-period">Août 2014 - Août 2019 | Cambrai</li>
+          <li>
+            - Encadrement et formation de jeunes en insertion professionnelle
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Formation</h2>
+      <ul>
+        <li>
+          • <strong>Bootcamp Développeur Web et Web Mobile</strong> - Le
+          Réacteur (2021-2022)
+        </li>
+        <li>• <strong>BTS SP3S</strong> - Lycée Chaptal</li>
+        <li>• <strong>DEES (Educateur Spécialisé)</strong> - VAE</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Compétences Techniques</h2>
+      <div class="skills-grid">
+        <div class="skills-section">
+          <h3>Langages</h3>
+          <ul>
+            <li>• JavaScript</li>
+            <li>• TypeScript</li>
+            <li>• SQL</li>
+          </ul>
+        </div>
+
+        <div class="skills-section">
+          <h3>Frontend</h3>
+          <ul>
+            <li>• React.js, Next.js (principal)</li>
+            <li>• Vue.js (notions)</li>
+            <li>• Material-UI, Tailwind, Bootstrap</li>
+            <li>• Redux, Redux Saga</li>
+            <li>• SCSS, styled-components</li>
+          </ul>
+        </div>
+
+        <div class="skills-section">
+          <h3>Backend</h3>
+          <ul>
+            <li>• Node.js, Express.js</li>
+            <li>• Sequelize, Prisma ORM</li>
+          </ul>
+        </div>
+
+        <div class="skills-section">
+          <h3>Bases de données</h3>
+          <ul>
+            <li>• MariaDB, MySQL</li>
+            <li>• PostgreSQL, MongoDB</li>
+          </ul>
+        </div>
+
+        <div class="skills-section">
+          <h3>Outils et Technologies</h3>
+          <ul>
+            <li>• Git, GitLab</li>
+            <li>• CI/CD</li>
+            <li>• Microsoft Azure, Firebase</li>
+            <li>• SEO, Google Analytics</li>
+            <li>• Blockchain (BigChain DB)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Langues</h2>
+      <ul>
+        <li>• Français : Langue maternelle</li>
+        <li>• Anglais : Professionnel</li>
+      </ul>
+    </section>
+  </body>
+</html>
